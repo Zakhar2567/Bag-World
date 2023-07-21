@@ -1,37 +1,44 @@
-<html>
-    <head>
-        <title>Bag World</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <nav class="menu">
-              <li><a href="">Каталог продукции</a></li>
-              <li><a href="">Новости</a></li>
-              <li><a href="">Контакты</a></li>
-            </nav>
-        </header>
-        <main>
-            
-            <div class="cover">
-                <h1>Bag World</h1>
-                <h2>Интернет-магазин чемоданов</h2>
-                <div>
-                    <p>Оставьте заявку прямо сейчас, и менеджер свяжется с Вами!</p>
-                </div>
-            </div>
-            <img src="https://img.freepik.com/free-photo/travel-suitcase-and-preparations-packing_23-2149070249.jpg?w=740&t=st=1689950324~exp=1689950924~hmac=e50fe1609724da6dac5a88fcd299e0d82332918a78f8ee9e060faff3d36c0e8a"
-            
-            <div class="box">
-                <h1>Почему мы?</h1>
-                <div class="box1"> 
-                    <h1><b>Гарантия качества</b></h1>
-                    <p>Гарантия 30 дней,100% возвратесли вам не понравится.</p>
-                </div>
-                <div class="box2">
-                    <h1>Доставка</h1>
-                    <p>Бесплатная доставка по  России.</p>
-                </div>
-            </div>
-        </main>       
-    </body>
+body{
+    font-family: Monospace;
+     background-color:#DED9D9;
+}
+header{
+    background-color: #B2F1FF;
+    font-size: 20
+}
+h1{text-align: center}
+h2{text-align: center}
+.cover h1{
+    text-align: left;
+}
+.cover h2{
+    margin: 200px 150px 30px 0px
+}
+.cover p{
+    margin: 0px 0px 0px 50px
+}
+div p{font-size: 19}
+.box{padding: 5px
+}
+
+.box1 {border:black 5px double;
+float:left;
+padding: 5px;
+width:47%;
+}
+.box2 {border:black 5px double;
+float:right;
+padding: 5px;
+width:47%;
+}
+main h1{
+    text-shadow: 5px 5px #B2F1FF;
+    
+}
+img{
+    display: block;
+    width: 100%;
+    }
+    
+.cover{position: absolute
+}
