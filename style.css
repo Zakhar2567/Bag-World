@@ -6,6 +6,15 @@ header{
     background-color: #B2F1FF;
     font-size: 20
 }
+    nav a:hover{
+        color: red
+    }
+    nav a:visited{
+    color: purple
+    }
+    nav a{text-decoration: none
+    }
+    
 h1{text-align: center}
 h2{text-align: center}
 .cover h1{
