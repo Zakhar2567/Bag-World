@@ -50,3 +50,7 @@ padding: 50px;
 #bag_travel{
     float: left;
 }
+span{
+    justify-content: center;
+    color: #3216B0 
+}
