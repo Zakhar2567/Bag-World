@@ -1,10 +1,11 @@
 body{
     font-family: Monospace;
-    font-size: 18;
+    font-size: 20;
     background-color:#DED9D9;
 }
-span{
+span:hover{
     text-shadow: 5px 5px #B2F1FF;
+    transition: all 1s linear
 }
 p{
     border-left: 6px solid darkorange;
