@@ -1,0 +1,12 @@
+body{
+    font-family: Monospace;
+    font-size: 18;
+    background-color:#DED9D9;
+}
+span{
+    text-shadow: 5px 5px #B2F1FF;
+}
+p{
+    border-left: 6px solid darkorange;
+    padding: 3px;
+}
