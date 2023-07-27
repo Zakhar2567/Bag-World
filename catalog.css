@@ -1,57 +1,28 @@
+.bag{
+    display: flex;
+    padding: 100px;
+    margin: 20px;
+    margin-left: 60px
+}
+.r{
+    padding: 20px;
+    border: 3px darkorange solid;
+    margin: 20px
+
+}
 body{
     font-family: Monospace;
     background-color:#DED9D9;
-    font-size: 18
+    font-size: 25px
 }    
 h1{text-align: center}
 h2{text-align: center}
-.post{
-    float: left;
-    padding: 12px;
-    width: 250px;
-    border: 3px solid darkorange;
-    border-radius: 30px
-}
-#bag_yellow
-{float: right;
-padding: 50px;
-}
 
-.reason {
-    float: right;
-    padding: 12px;
-    width: 250px;
-    border: 3px solid darkorange;
-    border-radius: 30px
-}
-#bag_blue{
-    float: left;
-}
-.lost{
-    float: left;
-    padding: 12px;
-    width: 250px;
-    border: 3px solid darkorange;
-    border-radius: 30px
-}
-
-#bag_red{
-    float: right;
-}
-
-.looser{
-    float: right;
-    padding: 12px;
-    width: 250px;
-    border: 3px solid darkorange;
-    border-radius: 30px
-}
-
-#bag_travel{
-    float: left;
-}
 span{
-    display:block:
+    display:block;
     text-align: center;
     color: #3216B0 
+}
+img{
+    margin-right: 50px
 }
