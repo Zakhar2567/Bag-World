@@ -5,7 +5,6 @@ h1{
     display: flex;
     justify-content: center;
 
-
 }
 
 .second{
@@ -31,15 +30,14 @@ h1{
     border: 3px #1F1AB2 solid;
     padding: 5px;
     margin: 10px;
-    width: 75%
+    width: 75%;
 }
 
 span{
     display: block;
     text-align: center;
 }
-.img-bag{
-    width: 75%;
-    height: 75%
-    
+img{
+    display: block;
+    margin: auto;
 }
