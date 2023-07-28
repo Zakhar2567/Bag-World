@@ -1,0 +1,45 @@
+h1{
+    text-shadow: #B2F1FF;
+}
+.first{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+body{
+    font-family: Monospace;
+    background-color:#DED9D9;
+    font-size: 20px;
+    width: 100%
+}
+
+h1{
+    text-align: center;
+}
+
+.st{
+    border: 3px #1F1AB2 solid;
+    padding: 5px;
+    margin: 10px;
+    width: 75%
+}
+
+span{
+    display: block;
+    text-align: center;
+}
+.img-bag{
+    width: 75%;
+    height: 75%
+    
+}
